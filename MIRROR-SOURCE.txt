@@ -1,0 +1,13 @@
+Submodule mirrored for openancore.
+
+parent: platform_external_angle
+path: third_party/clang-format/script
+gitmodules_url: https://chromium.googlesource.com/external/github.com/llvm/llvm-project/clang/tools/clang-format.git
+fetched_from: https://chromium.googlesource.com/external/github.com/llvm/llvm-project/clang/tools/clang-format.git
+commit: 3c0acd2d4e73dd911309d9e970ba09d58bf23a62
+branch: main
+fallback_from_github: true
+
+commit is the gitlink recorded on the parent's android-15.0.0_r36 branch.
+branch is the upstream HEAD branch at fetch time. The commit is pushed
+here as android-15.0.0_r36 whether or not it is that branch's tip.
